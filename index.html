@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NEXORA — Smart Digital Business Hub</title>
+        <meta name="description"
+            content="NEXORA brings websites, stores, bookings and customer engagement together in one powerful digital experience.">
+        <link rel="icon"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%233d7fff'/%3E%3Cpath d='M10 22V10l12 12V10' stroke='%23fff' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Sora:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- Icons -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="loading">
+
+        <!-- ============ LOADER ============ -->
+        <div class="loader" id="loader">
+            <div class="loader-logo">NEXORA</div>
+            <div class="loader-bar"><span></span></div>
+        </div>
+
+        <!-- Scroll progress -->
+        <div class="scroll-progress" id="scrollProgress"></div>
+
+        <!-- ============ NAVBAR ============ -->
+        <header class="navbar" id="navbar">
+            <div class="container nav-inner">
+                <a href="#home" class="logo" aria-label="NEXORA home">
+                    <svg class="logo-mark" viewBox="0 0 32 32"
+                        aria-hidden="true">
+                        <defs><lineargradient id="lg" x1="0" y1="0" x2="1"
+                                y2="1">
+                                <stop offset="0" stop-color="#3d7fff" /><stop
+                                    offset="1" stop-color="#9d6bff" />
+                            </lineargradient></defs>
+                        <rect width="32" height="32" rx="9" fill="url(#lg)" />
+                        <path d="M10 22V10l12 12V10" stroke="#fff"
+                            stroke-width="2.6" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    NEXORA
+                </a>
+
+                <nav class="nav-links" aria-label="Primary">
+                    <a href="#home">Home</a>
+                    <a href="#solutions">Solutions</a>
+                    <a href="#features">Features</a>
+                    <a href="#showcase">Showcase</a>
+                    <a href="#process">Process</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle"
+                        aria-label="Toggle dark / light mode"><i
+                            class="fa-solid fa-moon"></i></button>
+                    <a href="#contact"
+                        class="btn btn-primary btn-sm nav-cta">Get Started</a>
+                    <button class="hamburger" id="hamburger"
+                        aria-label="Open menu" aria-expanded="false">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#home" style="--i:0">Home</a>
+                <a href="#solutions" style="--i:1">Solutions</a>
+                <a href="#features" style="--i:2">Features</a>
+                <a href="#showcase" style="--i:3">Showcase</a>
+                <a href="#process" style="--i:4">Process</a>
+                <a href="#reviews" style="--i:5">Reviews</a>
+                <a href="#faq" style="--i:6">FAQ</a>
+                <a href="#contact" style="--i:7">Contact</a>
+                <a href="#contact" class="btn btn-primary" style="--i:8">Get
+                    Started</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- ============ HERO ============ -->
+            <section class="hero" id="home">
+                <div class="bg-grid" aria-hidden="true"></div>
+                <div class="glow g1" aria-hidden="true"></div>
+                <div class="glow g2" aria-hidden="true"></div>
+
+                <div class="container hero-inner">
+                    <div class="hero-copy">
+                        <span class="badge reveal"><span
+                                class="pulse-dot"></span> Smart Digital Business
+                            Platform</span>
+                        <h1 class="hero-title reveal" style="--rd:.08s">Build a
+                            Digital Business That <span class="grad-text">Works
+                                For You.</span></h1>
+                        <p class="hero-sub reveal" style="--rd:.16s">From
+                            websites and products to bookings and customer
+                            engagement — bring everything together in one
+                            powerful digital experience.</p>
+                        <div class="hero-actions reveal" style="--rd:.24s">
+                            <a href="#solutions"
+                                class="btn btn-primary btn-lg">Explore Solutions
+                                <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="#contact"
+                                class="btn btn-ghost btn-lg">Start a Project</a>
+                        </div>
+                        <div class="trust reveal" style="--rd:.32s">
+                            <div
+                                class="avatars"><span>DR</span><span>AC</span><span>MW</span><span>SM</span></div>
+                            <p class="trust-txt"><i
+                                    class="fa-solid fa-circle-check"></i>
+                                Designed for modern businesses</p>
+                        </div>
+                    </div>
+
+                    <!-- Interactive dashboard mockup -->
+                    <div class="hero-visual reveal" id="heroVisual"
+                        style="--rd:.2s">
+                        <div class="dash">
+                            <div class="dash-top">
+                                <div class="dots"><i></i><i></i><i></i></div>
+                                <span
+                                    class="dash-url">nexora.app/dashboard</span>
+                                <span class="live-chip"><span
+                                        class="pulse-dot"></span>LIVE</span>
+                            </div>
+                            <div class="dash-kpis">
+                                <div class="kpi"><span
+                                        class="kpi-label">Revenue</span><span
+                                        class="kpi-val" id="heroRevenue"
+                                        data-count="48260"
+                                        data-prefix="$">$48,260</span><span
+                                        class="kpi-delta up"><i
+                                            class="fa-solid fa-arrow-trend-up"></i>12.4%</span></div>
+                                <div class="kpi"><span
+                                        class="kpi-label">Orders</span><span
+                                        class="kpi-val"
+                                        data-count="1290">1,290</span><span
+                                        class="kpi-delta up"><i
+                                            class="fa-solid fa-arrow-trend-up"></i>8.1%</span></div>
+                                <div class="kpi"><span
+                                        class="kpi-label">Customers</span><span
+                                        class="kpi-val"
+                                        data-count="3462">3,462</span><span
+                                        class="kpi-delta up"><i
+                                            class="fa-solid fa-arrow-trend-up"></i>4.9%</span></div>
+                                <div class="kpi"><span
+                                        class="kpi-label">Conversion</span><span
+                                        class="kpi-val" data-count="4.8"
+                                        data-decimals="1"
+                                        data-suffix="%">4.8%</span><span
+                                        class="kpi-delta up"><i
+                                            class="fa-solid fa-arrow-trend-up"></i>0.6%</span></div>
+                            </div>
+                            <div class="hero-chart">
+                                <svg id="heroChart" viewBox="0 0 340 140"
+                                    preserveAspectRatio="none"
+                                    aria-hidden="true">
+                                    <defs>
+                                        <lineargradient id="ag" x1="0" y1="0"
+                                            x2="0" y2="1">
+                                            <stop offset="0"
+                                                stop-color="#3d7fff"
+                                                stop-opacity=".32" />
+                                            <stop offset="1"
+                                                stop-color="#3d7fff"
+                                                stop-opacity="0" />
+                                        </lineargradient>
+                                        <lineargradient id="st" x1="0" y1="0"
+                                            x2="1" y2="0">
+                                            <stop offset="0"
+                                                stop-color="#3d7fff" /><stop
+                                                offset="1"
+                                                stop-color="#9d6bff" />
+                                        </lineargradient>
+                                    </defs>
+                                    <path id="heroArea" fill="url(#ag)"></path>
+                                    <path id="heroLine" class="line" fill="none"
+                                        stroke="url(#st)" stroke-width="2.5"
+                                        stroke-linecap="round"
+                                        vector-effect="non-scaling-stroke"></path>
+                                    <circle id="heroDot" r="4"
+                                        fill="#9d6bff"></circle>
+                                </svg>
+                            </div>
+                            <div class="dash-activity">
+                                <div class="da-row"><span class="da-ico"><i
+                                            class="fa-solid fa-bag-shopping"></i></span>New
+                                    order <b>#10248</b><time>just
+                                        now</time></div>
+                                <div class="da-row"><span class="da-ico"><i
+                                            class="fa-solid fa-credit-card"></i></span>Payment
+                                    received <b>$129.00</b><time>12
+                                        min</time></div>
+                                <div class="da-row"><span class="da-ico"><i
+                                            class="fa-solid fa-user-plus"></i></span>New
+                                    customer signup<b></b><time>26
+                                        min</time></div>
+                            </div>
+                        </div>
+
+                        <!-- Floating mini cards -->
+                        <div class="float-card fc-1"><i
+                                class="fa-solid fa-arrow-trend-up"></i><div><b>+28%
+                                    Growth</b><small>this
+                                    quarter</small></div></div>
+                        <div class="float-card fc-2"><i
+                                class="fa-solid fa-users"></i><div><b>124 New
+                                    Customers</b><small>last 7
+                                    days</small></div></div>
+                        <div class="float-card fc-3"><i
+                                class="fa-solid fa-heart"></i><div><b>98.6%
+                                    Satisfaction</b><small>avg.
+                                    rating</small></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ BUSINESS TYPE SELECTOR ============ -->
+            <section class="section business" id="business">
+                <div class="container">
+                    <div class="sec-head reveal">
+                        <span class="sec-tag">One Platform · Every
+                            Industry</span>
+                        <h2>Choose Your Business</h2>
+                        <p>Pick a category and watch the platform adapt to it
+                            instantly.</p>
+                    </div>
+
+                    <div class="biz-grid reveal" style="--rd:.1s">
+                        <button class="biz-card active" data-biz="restaurant"
+                            style="--c:#ff8a5c"><span class="biz-check"><i
+                                    class="fa-solid fa-check"></i></span><span
+                                class="biz-ico"><i
+                                    class="fa-solid fa-utensils"></i></span><b
+                                class="biz-name">Restaurant</b><small
+                                class="biz-desc">Menus, reservations & table
+                                service</small></button>
+                        <button class="biz-card" data-biz="ecommerce"
+                            style="--c:#2fd48f"><span class="biz-check"><i
+                                    class="fa-solid fa-check"></i></span><span
+                                class="biz-ico"><i
+                                    class="fa-solid fa-cart-shopping"></i></span><b
+                                class="biz-name">E-commerce</b><small
+                                class="biz-desc">Products, orders &
+                                customers</small></button>
+                        <button class="biz-card" data-biz="salon"
+                            style="--c:#e879b8"><span class="biz-check"><i
+                                    class="fa-solid fa-check"></i></span><span
+                                class="biz-ico"><i
+                                    class="fa-solid fa-scissors"></i></span><b
+                                class="biz-name">Salon</b><small
+                                class="biz-desc">Appointments, clients &
+                                services</small></button>
+                        <button class="biz-card" data-biz="agency"
+                            style="--c:#3d7fff"><span class="biz-check"><i
+                                    class="fa-solid fa-check"></i></span><span
+                                class="biz-ico"><i
+                                    class="fa-solid fa-pen-nib"></i></span><b
+                                class="biz-name">Agency</b><small
+                                class="biz-desc">Projects, clients &
+                                leads</small></button>
+                        <button class="biz-card" data-biz="fitness"
+                            style="--c:#3ddc97"><span class="biz-check"><i
+                                    class="fa-solid fa-check"></i></span><span
+                                class="biz-ico"><i
+                                    class="fa-solid fa-dumbbell"></i></span><b
+                                class="biz-name">Fitness</b><small
+                                class="biz-desc">Members, classes &
+                                trainers</small></button>
+                    </div>
+
+                    <!-- Dynamic demo panel -->
+                    <div class="biz-panel reveal" id="bizDemo"
+                        style="--rd:.18s; --ac:#ff8a5c">
+                        <div class="biz-top">
+                            <span class="biz-title">Live preview — <b
+                                    id="bizTitle">Restaurant</b></span>
+                            <span class="live-chip"><span
+                                    class="pulse-dot"></span>ADAPTED</span>
+                        </div>
+                        <div class="biz-content">
+                            <div class="bp-stats" id="bizStats"></div>
+                            <div class="bp-rows" id="bizRows"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SMART DASHBOARD DEMO ============ -->
+            <section class="section dd" id="dashboard">
+                <div class="container">
+                    <div class="dd-head reveal">
+                        <div>
+                            <span class="sec-tag">Live Product</span>
+                            <h2>A Dashboard That Feels Alive</h2>
+                            <p>Real-time revenue, orders, customers and activity
+                                — the command center of your business.</p>
+                        </div>
+                        <div class="dd-controls">
+                            <span class="live-badge" id="liveBadge"><span
+                                    class="pulse-dot"></span>Streaming</span>
+                            <button class="range-btn" id="demoRange"><i
+                                    class="fa-regular fa-calendar"></i><span
+                                    id="rangeLabel">Daily</span><i
+                                    class="fa-solid fa-chevron-down"></i></button>
+                            <button class="range-btn ghost" id="exportBtn"><i
+                                    class="fa-solid fa-download"></i>Export</button>
+                        </div>
+                    </div>
+
+                    <!-- Stat row -->
+                    <div class="dd-stats reveal" style="--rd:.08s">
+                        <div class="dd-stat"><span class="dd-label">Total
+                                Revenue</span><span class="dd-val"
+                                data-count="84290"
+                                data-prefix="$">$84,290</span><span
+                                class="kpi-delta up"><i
+                                    class="fa-solid fa-arrow-trend-up"></i>18.2%</span></div>
+                        <div class="dd-stat"><span class="dd-label">Active
+                                Customers</span><span class="dd-val"
+                                data-count="3462">3,462</span><span
+                                class="kpi-delta up"><i
+                                    class="fa-solid fa-arrow-trend-up"></i>6.4%</span></div>
+                        <div class="dd-stat"><span class="dd-label">New
+                                Orders</span><span class="dd-val"
+                                id="liveOrders"
+                                data-count="1284">1,290</span><span
+                                class="kpi-delta up"><i
+                                    class="fa-solid fa-arrow-trend-up"></i>11.3%</span></div>
+                        <div class="dd-stat"><span class="dd-label">Conversion
+                                Rate</span><span class="dd-val"
+                                data-count="4.86" data-decimals="2"
+                                data-suffix="%">4.86%</span><span
+                                class="kpi-delta up"><i
+                                    class="fa-solid fa-arrow-trend-up"></i>0.8%</span></div>
+                    </div>
+
+                    <div class="dd-grid">
+                        <!-- Animated chart -->
+                        <div class="card dd-chart-card reveal"
+                            style="--rd:.12s">
+                            <div class="dd-chart-head">
+                                <div><b>Revenue Overview</b><small>Updated in
+                                        real time</small></div>
+                                <span class="legend"><i></i>Revenue</span>
+                            </div>
+                            <div class="dd-chart" id="demoBars">
+                                <div class="bar" style="height:3%"></div><div
+                                    class="bar" style="height:3%"></div>
+                                <div class="bar" style="height:3%"></div><div
+                                    class="bar" style="height:3%"></div>
+                                <div class="bar" style="height:3%"></div><div
+                                    class="bar" style="height:3%"></div>
+                                <div class="bar" style="height:3%"></div><div
+                                    class="bar" style="height:3%"></div>
+                                <div class="bar" style="height:3%"></div><div
+                                    class="bar" style="height:3%"></div>
+                                <div class="bar" style="height:3%"></div><div
+                                    class="bar" style="height:3%"></div>
+                            </div>
+                            <div
+                                class="dd-x"><span>J</span><span>F</span><span>M</span><span>A</span><span>M</span><span>J</span><span>J</span><span>A</span><span>S</span><span>O</span><span>N</span><span>E</span></div>
+                        </div>
+
+                        <!-- Tabbed side panel -->
+                        <div class="card dd-side reveal" style="--rd:.18s">
+                            <div class="dd-tabs">
+                                <button class="dd-tab active"
+                                    data-tab="tab-orders">Orders</button>
+                                <button class="dd-tab"
+                                    data-tab="tab-customers">Customers</button>
+                                <button class="dd-tab"
+                                    data-tab="tab-activity">Activity</button>
+                            </div>
+
+                            <div class="dd-panel active" id="tab-orders">
+                                <div class="o-row"><span
+                                        class="o-id">#10248</span><span
+                                        class="o-name">Maya
+                                        Rodriguez</span><span
+                                        class="o-amt">$129.00</span><span
+                                        class="o-pill ok">Completed</span></div>
+                                <div class="o-row"><span
+                                        class="o-id">#10247</span><span
+                                        class="o-name">James Carter</span><span
+                                        class="o-amt">$86.50</span><span
+                                        class="o-pill proc">Processing</span></div>
+                                <div class="o-row"><span
+                                        class="o-id">#10246</span><span
+                                        class="o-name">Priya Sharma</span><span
+                                        class="o-amt">$242.00</span><span
+                                        class="o-pill ok">Completed</span></div>
+                                <div class="o-row"><span
+                                        class="o-id">#10245</span><span
+                                        class="o-name">Tom Becker</span><span
+                                        class="o-amt">$54.20</span><span
+                                        class="o-pill pend">Pending</span></div>
+                            </div>
+
+                            <div class="dd-panel" id="tab-customers">
+                                <div class="c-row"><span class="c-av"
+                                        style="--a:#3d7fff">MR</span><div
+                                        class="c-txt"><b>Maya
+                                            Rodriguez</b><small>maya@mail.com</small></div><span
+                                        class="c-amt">$1,240</span></div>
+                                <div class="c-row"><span class="c-av"
+                                        style="--a:#9d6bff">JC</span><div
+                                        class="c-txt"><b>James
+                                            Carter</b><small>jc@mail.com</small></div><span
+                                        class="c-amt">$862</span></div>
+                                <div class="c-row"><span class="c-av"
+                                        style="--a:#2fd48f">PS</span><div
+                                        class="c-txt"><b>Priya
+                                            Sharma</b><small>ps@mail.com</small></div><span
+                                        class="c-amt">$2,410</span></div>
+                                <div class="c-row"><span class="c-av"
+                                        style="--a:#ff8a5c">TB</span><div
+                                        class="c-txt"><b>Tom
+                                            Becker</b><small>tb@mail.com</small></div><span
+                                        class="c-amt">$315</span></div>
+                            </div>
+
+                            <div class="dd-panel" id="tab-activity">
+                                <div class="act"><span
+                                        class="act-dot"></span><div
+                                        class="act-txt"><b>Order #10248
+                                            completed</b><small>2 min
+                                            ago</small></div></div>
+                                <div class="act"><span
+                                        class="act-dot"></span><div
+                                        class="act-txt"><b>New customer
+                                            registered</b><small>18 min
+                                            ago</small></div></div>
+                                <div class="act"><span
+                                        class="act-dot"></span><div
+                                        class="act-txt"><b>Payment received —
+                                            $242.00</b><small>1 hr
+                                            ago</small></div></div>
+                                <div class="act"><span
+                                        class="act-dot"></span><div
+                                        class="act-txt"><b>Inventory
+                                            synced</b><small>3 hrs
+                                            ago</small></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SOLUTIONS ============ -->
+            <section class="section solutions" id="solutions">
+                <div class="container">
+                    <div class="sec-head reveal">
+                        <span class="sec-tag">What You Get</span>
+                        <h2>Everything Your Business Needs</h2>
+                        <p>Six tightly-integrated modules — not a pile of
+                            plugins.</p>
+                    </div>
+
+                    <div class="sol-grid">
+                        <article class="sol-card w2 reveal">
+                            <span class="sol-num">01</span>
+                            <span class="sol-ico"><i
+                                    class="fa-solid fa-globe"></i></span>
+                            <h3>Business Website</h3>
+                            <p>A fast, conversion-focused website that becomes
+                                your hardest-working salesperson — built to load
+                                instantly and rank well.</p>
+                            <div
+                                class="sol-tags"><span>SEO-ready</span><span>90+
+                                    Lighthouse</span><span>CMS
+                                    included</span></div>
+                            <span class="sol-arrow"><i
+                                    class="fa-solid fa-arrow-right"></i></span>
+                        </article>
+                        <article class="sol-card reveal" style="--rd:.08s">
+                            <span class="sol-num">02</span>
+                            <span class="sol-ico"><i
+                                    class="fa-solid fa-store"></i></span>
+                            <h3>Online Store</h3>
+                            <p>A complete storefront with cart, checkout,
+                                inventory and payments — ready to sell from day
+                                one.</p>
+                            <span class="sol-arrow"><i
+                                    class="fa-solid fa-arrow-right"></i></span>
+                        </article>
+                        <article class="sol-card reveal" style="--rd:.05s">
+                            <span class="sol-num">03</span>
+                            <span class="sol-ico"><i
+                                    class="fa-solid fa-calendar-check"></i></span>
+                            <h3>Booking System</h3>
+                            <p>Real-time scheduling, reminders and calendar sync
+                                that keep your appointments full and your phone
+                                quiet.</p>
+                            <span class="sol-arrow"><i
+                                    class="fa-solid fa-arrow-right"></i></span>
+                        </article>
+                        <article class="sol-card w2 reveal" style="--rd:.1s">
+                            <span class="sol-num">04</span>
+                            <span class="sol-ico"><i
+                                    class="fa-solid fa-users"></i></span>
+                            <h3>Customer Management</h3>
+                            <p>Every lead, order and conversation in one clean
+                                view — so no customer ever slips through the
+                                cracks.</p>
+                            <span class="sol-arrow"><i
+                                    class="fa-solid fa-arrow-right"></i></span>
+                        </article>
+                        <article class="sol-card reveal" style="--rd:.05s">
+                            <span class="sol-num">05</span>
+                            <span class="sol-ico"><i
+                                    class="fa-solid fa-bullhorn"></i></span>
+                            <h3>Marketing Tools</h3>
+                            <p>Email campaigns, pop-ups, coupons and SEO built
+                                in — grow your reach without extra
+                                subscriptions.</p>
+                            <span class="sol-arrow"><i
+                                    class="fa-solid fa-arrow-right"></i></span>
+                        </article>
+                        <article class="sol-card w2 reveal" style="--rd:.1s">
+                            <span class="sol-num">06</span>
+                            <span class="sol-ico"><i
+                                    class="fa-solid fa-chart-line"></i></span>
+                            <h3>Analytics Dashboard</h3>
+                            <p>Revenue, traffic and customer trends visualized
+                                in real time, so every decision is an informed
+                                one.</p>
+                            <span class="sol-arrow"><i
+                                    class="fa-solid fa-arrow-right"></i></span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ INTERACTIVE FEATURES ============ -->
+            <section class="section features" id="features">
+                <div class="container">
+                    <div class="sec-head reveal">
+                        <span class="sec-tag">Why NEXORA</span>
+                        <h2>Built Different, On Purpose</h2>
+                        <p>Select a capability to see it in action.</p>
+                    </div>
+
+                    <div class="feat-wrap">
+                        <!-- Left: feature navigation -->
+                        <div class="feat-nav reveal" role="tablist">
+                            <button class="feat-item active"
+                                data-view="fv-performance"><span
+                                    class="f-idx">01</span><span
+                                    class="f-ico"><i
+                                        class="fa-solid fa-bolt"></i></span><b>Fast
+                                    Performance</b><i
+                                    class="fa-solid fa-chevron-right f-chev"></i></button>
+                            <button class="feat-item"
+                                data-view="fv-mobile"><span
+                                    class="f-idx">02</span><span
+                                    class="f-ico"><i
+                                        class="fa-solid fa-mobile-screen-button"></i></span><b>Mobile
+                                    Experience</b><i
+                                    class="fa-solid fa-chevron-right f-chev"></i></button>
+                            <button class="feat-item"
+                                data-view="fv-analytics"><span
+                                    class="f-idx">03</span><span
+                                    class="f-ico"><i
+                                        class="fa-solid fa-chart-simple"></i></span><b>Smart
+                                    Analytics</b><i
+                                    class="fa-solid fa-chevron-right f-chev"></i></button>
+                            <button class="feat-item"
+                                data-view="fv-management"><span
+                                    class="f-idx">04</span><span
+                                    class="f-ico"><i
+                                        class="fa-solid fa-sliders"></i></span><b>Easy
+                                    Management</b><i
+                                    class="fa-solid fa-chevron-right f-chev"></i></button>
+                            <button class="feat-item"
+                                data-view="fv-security"><span
+                                    class="f-idx">05</span><span
+                                    class="f-ico"><i
+                                        class="fa-solid fa-shield-halved"></i></span><b>Secure
+                                    Platform</b><i
+                                    class="fa-solid fa-chevron-right f-chev"></i></button>
+                        </div>
+
+                        <!-- Right: dynamic preview stage -->
+                        <div class="feat-stage reveal" style="--rd:.12s">
+                            <div class="feat-view active" id="fv-performance">
+                                <div class="fv-copy">
+                                    <h3>Fast Performance</h3>
+                                    <p>Optimized assets, lazy loading and clean
+                                        code keep every page under a second —
+                                        even on slow connections. Speed is a
+                                        feature, and yours is dialed in.</p>
+                                    <div class="fv-chips"><span class="chip"><i
+                                                class="fa-solid fa-gauge-high"></i>0.8s
+                                            avg. load</span><span
+                                            class="chip"><i
+                                                class="fa-solid fa-clock"></i>Instant
+                                            navigation</span></div>
+                                </div>
+                                <div class="vg vg-gauge"><span
+                                        class="needle"></span><b
+                                        class="g-val">0.8s</b></div>
+                            </div>
+
+                            <div class="feat-view" id="fv-mobile">
+                                <div class="fv-copy">
+                                    <h3>Mobile Experience</h3>
+                                    <p>Every layout is designed thumb-first.
+                                        Menus, forms and checkout feel native on
+                                        any screen size, in any orientation.</p>
+                                    <div class="fv-chips"><span class="chip"><i
+                                                class="fa-solid fa-mobile-screen"></i>100%
+                                            responsive</span><span
+                                            class="chip"><i
+                                                class="fa-solid fa-hand-pointer"></i>Touch-first
+                                            UI</span></div>
+                                </div>
+                                <div class="vg vg-phone"><span
+                                        class="notch"></span><span
+                                        class="ph-row w70"></span><span
+                                        class="ph-row"></span><span
+                                        class="ph-row w50"></span><span
+                                        class="ph-cta"></span><span
+                                        class="ph-nav"><i></i><i></i><i></i></span></div>
+                            </div>
+
+                            <div class="feat-view" id="fv-analytics">
+                                <div class="fv-copy">
+                                    <h3>Smart Analytics</h3>
+                                    <p>Track visitors, revenue and funnels in
+                                        real time. Automatic reports highlight
+                                        what's working — and what to fix
+                                        next.</p>
+                                    <div class="fv-chips"><span class="chip"><i
+                                                class="fa-solid fa-wave-square"></i>Real-time
+                                            data</span><span class="chip"><i
+                                                class="fa-solid fa-bell"></i>Smart
+                                            alerts</span></div>
+                                </div>
+                                <div class="vg vg-bars"><span
+                                        style="--h:38%"></span><span
+                                        style="--h:62%"></span><span
+                                        style="--h:48%"></span><span
+                                        style="--h:82%"></span><span
+                                        style="--h:56%"></span><span
+                                        style="--h:94%"></span></div>
+                            </div>
+
+                            <div class="feat-view" id="fv-management">
+                                <div class="fv-copy">
+                                    <h3>Easy Management</h3>
+                                    <p>Update content, prices and products
+                                        without touching code. If you can fill
+                                        in a form, you can run your site.</p>
+                                    <div class="fv-chips"><span class="chip"><i
+                                                class="fa-solid fa-wand-magic-sparkles"></i>No-code
+                                            editing</span><span class="chip"><i
+                                                class="fa-solid fa-rotate"></i>Instant
+                                            publish</span></div>
+                                </div>
+                                <div class="vg vg-manage">
+                                    <div class="mg-row"><span>Online
+                                            store</span><span
+                                            class="tgl on"><i></i></span></div>
+                                    <div
+                                        class="mg-row"><span>Auto-invoicing</span><span
+                                            class="tgl on"><i></i></span></div>
+                                    <div class="mg-row"><span>Maintenance
+                                            mode</span><span
+                                            class="tgl"><i></i></span></div>
+                                    <div
+                                        class="mg-slider"><span>Storage</span><div
+                                            class="mg-track"><i
+                                                style="width:64%"></i></div><b>64%</b></div>
+                                </div>
+                            </div>
+
+                            <div class="feat-view" id="fv-security">
+                                <div class="fv-copy">
+                                    <h3>Secure Platform</h3>
+                                    <p>SSL, encrypted forms, daily backups and
+                                        spam protection come standard — your
+                                        business stays online and safe.</p>
+                                    <div class="fv-chips"><span class="chip"><i
+                                                class="fa-solid fa-lock"></i>256-bit
+                                            encryption</span><span
+                                            class="chip"><i
+                                                class="fa-solid fa-database"></i>Daily
+                                            backups</span></div>
+                                </div>
+                                <div class="vg vg-shield">
+                                    <span class="ring r1"></span><span
+                                        class="ring r2"></span>
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    <div
+                                        class="sec-chips"><span>SSL</span><span>2FA</span><span>Backups</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SHOWCASE ============ -->
+            <section class="section showcase" id="showcase">
+                <div class="container">
+                    <div class="sec-head reveal">
+                        <span class="sec-tag">Selected Work</span>
+                        <h2>Recent Projects</h2>
+                        <p>A snapshot of businesses running on NEXORA.</p>
+                    </div>
+
+                    <div class="filters reveal" style="--rd:.08s">
+                        <button class="filter-btn active"
+                            data-filter="all">All</button>
+                        <button class="filter-btn"
+                            data-filter="business">Business</button>
+                        <button class="filter-btn"
+                            data-filter="ecommerce">E-commerce</button>
+                        <button class="filter-btn"
+                            data-filter="agency">Agency</button>
+                        <button class="filter-btn"
+                            data-filter="services">Services</button>
+                    </div>
+
+                    <div class="proj-grid">
+                        <!-- 01 Nova Restaurant -->
+                        <article class="proj w7 reveal"
+                            data-category="business">
+                            <div class="proj-media">
+                                <div class="frame"><span
+                                        class="f-dots"><i></i><i></i><i></i></span><span
+                                        class="f-url">novarestaurant.com</span></div>
+                                <div class="scene sc-restaurant">
+                                    <div class="sc-hero"><span
+                                            class="sk w60"></span><span
+                                            class="sk w40"></span><span
+                                            class="sc-btn"></span></div>
+                                    <div class="sc-cards"><span
+                                            class="sc-tile t1"></span><span
+                                            class="sc-tile t2"></span><span
+                                            class="sc-tile t3"></span></div>
+                                </div>
+                               <img src="Image/images/project-agency.svg" alt="Nova Restaurant website" loading="lazy">
+
+                            </div>
+                            <div class="proj-info"><div><h3>Nova
+                                        Restaurant</h3><small>Website ·
+                                        Reservations</small></div><span
+                                    class="p-cat">Business</span></div>
+                        </article>
+
+                        <!-- 02 Urban Store -->
+                        <article class="proj w5 reveal"
+                            data-category="ecommerce" style="--rd:.08s">
+                            <div class="proj-media">
+                                <div class="frame"><span
+                                        class="f-dots"><i></i><i></i><i></i></span><span
+                                        class="f-url">urbanstore.shop</span></div>
+                                <div class="scene sc-store">
+                                    <div class="sc-head"><span
+                                            class="sk w30"></span><span
+                                            class="sc-btn sm"></span></div>
+                                    <div class="sc-prods"><span
+                                            class="sc-prod p1"><i
+                                                class="sk"></i><i
+                                                class="sk w60"></i></span><span
+                                            class="sc-prod p2"><i
+                                                class="sk"></i><i
+                                                class="sk w60"></i></span><span
+                                            class="sc-prod p3"><i
+                                                class="sk"></i><i
+                                                class="sk w60"></i></span><span
+                                            class="sc-prod p4"><i
+                                                class="sk"></i><i
+                                                class="sk w60"></i></span></div>
+                                </div>
+                                <img src="Image/images/project-fitness.svg"
+                                    alt="Urban Store website" loading="lazy">
+                            </div>
+                            <div class="proj-info"><div><h3>Urban
+                                        Store</h3><small>Storefront ·
+                                        Payments</small></div><span
+                                    class="p-cat">E-commerce</span></div>
+                        </article>
+
+                        <!-- 03 Luxe Salon -->
+                        <article class="proj w5 reveal">
+                            <div class="proj-media">
+                                <div class="frame"><span
+                                        class="f-dots"><i></i><i></i><i></i></span><span
+                                        class="f-url">luxesalon.co</span></div>
+                                <div class="scene sc-salon">
+                                    <div class="sc-left"><span
+                                            class="sk w70"></span><span
+                                            class="sk w50"></span><span
+                                            class="sc-btn"></span></div>
+                                    <div class="sc-cal"><i></i><i
+                                            class="on"></i><i></i><i></i><i
+                                            class="on"></i><i></i><i></i><i></i><i></i><i
+                                            class="on"></i><i></i><i></i></div>
+                                </div>
+                                <img src="Image/images/project-salon.svg"
+                                    alt="Luxe Salon website" loading="lazy">
+                            </div>
+                            <div class="proj-info"><div><h3>Luxe
+                                        Salon</h3><small>Booking ·
+                                        Reminders</small></div><span
+                                    class="p-cat">Services</span></div>
+                        </article>
+
+                        <!-- 04 Pixel Agency -->
+                        <article class="proj w7 reveal" style="--rd:.08s">
+                            <div class="proj-media">
+                                <div class="frame"><span
+                                        class="f-dots"><i></i><i></i><i></i></span><span
+                                        class="f-url">pixelagency.io</span></div>
+                                <div class="scene sc-agency"><b
+                                        class="sc-word">PIXEL<i>®</i></b><span
+                                        class="sc-logos"><i></i><i></i><i></i><i></i><i></i></span></div>
+                                <img src="Image/images/project-store.svg"
+                                    alt="Pixel Agency website" loading="lazy">
+                            </div>
+                            <div class="proj-info"><div><h3>Pixel
+                                        Agency</h3><small>Portfolio ·
+                                        Leads</small></div><span
+                                    class="p-cat">Agency</span></div>
+                        </article>
+
+                        <!-- 05 FitCore -->
+                        <article class="proj w12 reveal">
+                            <div class="proj-media wide">
+                                <div class="frame"><span
+                                        class="f-dots"><i></i><i></i><i></i></span><span
+                                        class="f-url">fitcore.club</span></div>
+                                <div class="scene sc-fitness">
+                                    <div
+                                        class="sc-ring"><b>24<i>/7</i></b><small>open</small></div>
+                                    <div class="sc-sched"><span><em>06:00</em><i
+                                                class="sk w50"></i></span><span><em>09:30</em><i
+                                                class="sk w40"></i></span><span><em>18:00</em><i
+                                                class="sk w60"></i></span></div>
+                                </div>
+                                <img src="Image"
+                                    alt="FitCore website" loading="lazy">
+                            </div>
+                            <div
+                                class="proj-info"><div><h3>FitCore</h3><small>Memberships
+                                        · Classes</small></div><span
+                                    class="p-cat">Business</span></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ HOW IT WORKS ============ -->
+            <section class="section process" id="process">
+                <div class="container">
+                    <div class="sec-head reveal">
+                        <span class="sec-tag">The Journey</span>
+                        <h2>How It Works</h2>
+                        <p>Five clear steps from first call to launch day.</p>
+                    </div>
+
+                    <div class="steps reveal" style="--rd:.1s">
+                        <span class="steps-line"></span><span
+                            class="steps-fill"></span>
+                        <div class="stp" style="--d:0s"><span
+                                class="stp-dot">01</span><h4>Discover</h4><p>We
+                                map your goals, audience and market.</p></div>
+                        <div class="stp" style="--d:.15s"><span
+                                class="stp-dot">02</span><h4>Plan</h4><p>Structure,
+                                features and a clear roadmap.</p></div>
+                        <div class="stp" style="--d:.3s"><span
+                                class="stp-dot">03</span><h4>Design</h4><p>A
+                                bespoke interface crafted around your
+                                brand.</p></div>
+                        <div class="stp" style="--d:.45s"><span
+                                class="stp-dot">04</span><h4>Develop</h4><p>Clean,
+                                fast builds tested on every device.</p></div>
+                        <div class="stp" style="--d:.6s"><span
+                                class="stp-dot">05</span><h4>Launch</h4><p>Go
+                                live, measure, and keep improving.</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ STATS ============ -->
+            <section class="section stats-band">
+                <div class="container stats-grid">
+                    <div class="st reveal"><span class="st-num" data-count="150"
+                            data-suffix="+">0+</span><span
+                            class="st-label">Projects</span></div>
+                    <div class="st reveal" style="--rd:.08s"><span
+                            class="st-num" data-count="98"
+                            data-suffix="%">0%</span><span
+                            class="st-label">Client Satisfaction</span></div>
+                    <div class="st reveal" style="--rd:.16s"><span
+                            class="st-num" data-count="24"
+                            data-suffix="/7">0/7</span><span
+                            class="st-label">Support</span></div>
+                    <div class="st reveal" style="--rd:.24s"><span
+                            class="st-num" data-count="1.5" data-decimals="1"
+                            data-suffix="+">0+</span><span
+                            class="st-label">Years Experience</span></div>
+                </div>
+            </section>
+
+            <!-- ============ TESTIMONIALS ============ -->
+            <section class="section testimonials" id="reviews">
+                <div class="container">
+                    <div class="sec-head reveal">
+                        <span class="sec-tag">Client Love</span>
+                        <h2>What Businesses Say</h2>
+                    </div>
+
+                    <div class="t-slider reveal" style="--rd:.1s" id="tSlider">
+                        <div class="t-track" id="tTrack">
+                            <div class="t-slide">
+                                <i class="fa-solid fa-quote-left t-quote"></i>
+                                <p>"NEXORA rebuilt our entire flow — online orders doubled in two months and reservations basically manage themselves. Best investment we've made."</p>
+                                <div class="t-foot">
+                                    <span class="t-av"
+                                        style="--a:#ff8a5c">DR</span>
+                                    <div class="t-who"><b>Daniel
+                                            Reyes</b><small>Nova
+                                            Restaurant</small></div>
+                                    <span class="t-stars"><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                            <div class="t-slide">
+                                <i class="fa-solid fa-quote-left t-quote"></i>
+                                <p>"The store is fast, beautiful and finally easy to manage. Our conversion rate went from 1.2% to 3.8% within weeks of launch."</p>
+                                <div class="t-foot">
+                                    <span class="t-av"
+                                        style="--a:#2fd48f">AC</span>
+                                    <div class="t-who"><b>Amelia
+                                            Chen</b><small>Urban
+                                            Store</small></div>
+                                    <span class="t-stars"><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                            <div class="t-slide">
+                                <i class="fa-solid fa-quote-left t-quote"></i>
+                                <p>"I've shipped client sites on plenty of platforms. Nothing comes close to this level of polish and raw performance."</p>
+                                <div class="t-foot">
+                                    <span class="t-av"
+                                        style="--a:#3d7fff">MW</span>
+                                    <div class="t-who"><b>Marcus
+                                            Whitfield</b><small>Pixel
+                                            Agency</small></div>
+                                    <span class="t-stars"><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star-half-stroke"></i></span>
+                                </div>
+                            </div>
+                            <div class="t-slide">
+                                <i class="fa-solid fa-quote-left t-quote"></i>
+                                <p>"Bookings up 40%, no-shows down to almost zero. The reminder system alone paid for the whole project."</p>
+                                <div class="t-foot">
+                                    <span class="t-av"
+                                        style="--a:#e879b8">SM</span>
+                                    <div class="t-who"><b>Sofia
+                                            Marino</b><small>Luxe
+                                            Salon</small></div>
+                                    <span class="t-stars"><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="t-ctrl">
+                            <button class="t-btn" id="tPrev"
+                                aria-label="Previous testimonial"><i
+                                    class="fa-solid fa-arrow-left"></i></button>
+                            <div class="t-dots" id="tDots"></div>
+                            <button class="t-btn" id="tNext"
+                                aria-label="Next testimonial"><i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ FAQ ============ -->
+            <section class="section faq" id="faq">
+                <div class="container faq-wrap">
+                    <div class="faq-left reveal">
+                        <span class="sec-tag">Answers</span>
+                        <h2>Frequently Asked Questions</h2>
+                        <p>Everything you need to know before getting
+                            started.</p>
+                        <div class="faq-help">
+                            <b>Still have questions?</b>
+                            <small>We reply within one business day.</small>
+                            <a href="#contact"
+                                class="btn btn-ghost btn-sm">Contact us <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="faq-list reveal" style="--rd:.1s">
+                        <div class="faq-item">
+                            <button class="faq-q"
+                                aria-expanded="false"><span>What type of
+                                    businesses can use NEXORA?</span><i
+                                    class="fa-solid fa-plus"></i></button>
+                            <div class="faq-a"><div
+                                    class="faq-a-in"><p>Restaurants, e-commerce
+                                        stores, salons, agencies, fitness
+                                        studios and more. The platform adapts
+                                        its dashboard, bookings and tools to
+                                        your industry — pick your business type
+                                        and everything reconfigures around
+                                        it.</p></div></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-q"
+                                aria-expanded="false"><span>Can I customize the
+                                    platform?</span><i
+                                    class="fa-solid fa-plus"></i></button>
+                            <div class="faq-a"><div
+                                    class="faq-a-in"><p>Absolutely. Colors,
+                                        typography, layout blocks, dashboard
+                                        widgets and workflows are all
+                                        configurable. You get a tailored digital
+                                        hub, not a one-size-fits-all
+                                        template.</p></div></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-q" aria-expanded="false"><span>Is
+                                    the website mobile responsive?</span><i
+                                    class="fa-solid fa-plus"></i></button>
+                            <div class="faq-a"><div class="faq-a-in"><p>Yes —
+                                        every page is designed thumb-first and
+                                        tested across phones, tablets and
+                                        desktops. Menus, forms and checkout all
+                                        feel native on any
+                                        screen.</p></div></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-q"
+                                aria-expanded="false"><span>Can I integrate
+                                    WooCommerce?</span><i
+                                    class="fa-solid fa-plus"></i></button>
+                            <div class="faq-a"><div class="faq-a-in"><p>Yes.
+                                        WooCommerce connects seamlessly if you
+                                        need it, and NEXORA's native store
+                                        module is available as a faster, lighter
+                                        alternative — the choice is
+                                        yours.</p></div></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-q"
+                                aria-expanded="false"><span>Can I add my own
+                                    products?</span><i
+                                    class="fa-solid fa-plus"></i></button>
+                            <div class="faq-a"><div class="faq-a-in"><p>Of
+                                        course. Add unlimited products with
+                                        images, variants, pricing and stock — no
+                                        code required. Bulk import from CSV is
+                                        supported too.</p></div></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-q"
+                                aria-expanded="false"><span>Can the design be
+                                    customized?</span><i
+                                    class="fa-solid fa-plus"></i></button>
+                            <div class="faq-a"><div class="faq-a-in"><p>Fully.
+                                        From swapping accent colors and fonts to
+                                        rebuilding entire sections, your site
+                                        reflects your brand — not ours. Design
+                                        revisions are part of every
+                                        plan.</p></div></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ CTA ============ -->
+            <section class="section cta">
+                <div class="container">
+                    <div class="cta-box reveal">
+                        <span class="glow g1"></span><span
+                            class="glow g2"></span>
+                        <h2>Ready to Build Something <span
+                                class="grad-text">Better?</span></h2>
+                        <p>Let's create a digital experience that turns visitors
+                            into customers.</p>
+                        <div class="hero-actions center">
+                            <a href="#contact"
+                                class="btn btn-primary btn-lg">Start Your
+                                Project <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                            <a href="#showcase"
+                                class="btn btn-ghost btn-lg">View Showcase</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ CONTACT ============ -->
+            <section class="section contact" id="contact">
+                <div class="container contact-grid">
+                    <div class="c-info reveal">
+                        <span class="sec-tag">Get In Touch</span>
+                        <h2>Let's Talk About Your Project</h2>
+                        <p>Tell us where your business is headed — we'll show
+                            you how NEXORA gets you there faster.</p>
+
+                        <div class="info-item"><span class="info-ico"><i
+                                    class="fa-solid fa-envelope"></i></span><div><small>Email</small><a
+                                    href="mailto:hello@nexora.io">hello@nexora.io</a></div></div>
+                        <div class="info-item"><span class="info-ico"><i
+                                    class="fa-brands fa-whatsapp"></i></span><div><small>WhatsApp</small><a
+                                    href="https://wa.me/15550123456"
+                                    target="_blank" rel="noopener">+1 (555)
+                                    012-3456</a></div></div>
+                        <div class="info-item"><span class="info-ico"><i
+                                    class="fa-solid fa-location-dot"></i></span><div><small>Location</small><span>Remote-first
+                                    — working worldwide</span></div></div>
+
+                        <div class="socials">
+                            <a href="#" aria-label="X / Twitter"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="GitHub"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="#" aria-label="Dribbble"><i
+                                    class="fa-brands fa-dribbble"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card c-form-card reveal" style="--rd:.12s">
+                        <form id="contactForm" novalidate>
+                            <div class="f-row">
+                                <div class="field"><label
+                                        for="f-name">Name</label><input
+                                        id="f-name" name="name" type="text"
+                                        placeholder="Your full name"><span
+                                        class="err"></span></div>
+                                <div class="field"><label
+                                        for="f-email">Email</label><input
+                                        id="f-email" name="email" type="email"
+                                        placeholder="you@company.com"><span
+                                        class="err"></span></div>
+                            </div>
+                            <div class="f-row">
+                                <div class="field"><label for="f-biz">Business
+                                        Type</label>
+                                    <select id="f-biz" name="biztype">
+                                        <option value selected disabled>Select
+                                            your industry</option>
+                                        <option>Restaurant</option><option>E-commerce</option><option>Salon</option>
+                                        <option>Agency</option><option>Fitness</option><option>Other</option>
+                                    </select><span class="err"></span>
+                                </div>
+                                <div class="field"><label
+                                        for="f-budget">Budget</label>
+                                    <select id="f-budget" name="budget">
+                                        <option value selected disabled>Select a
+                                            range</option>
+                                        <option>Under $500</option><option>$500
+                                            – $1,000</option>
+                                        <option>$1,000 –
+                                            $5,000</option><option>$5,000+</option>
+                                    </select><span class="err"></span>
+                                </div>
+                            </div>
+                            <div class="field"><label
+                                    for="f-msg">Message</label><textarea
+                                    id="f-msg" name="message" rows="5"
+                                    placeholder="Tell us about your project..."></textarea><span
+                                    class="err"></span></div>
+
+                            <button type="submit"
+                                class="btn btn-primary btn-lg btn-full"
+                                id="submitBtn"><i
+                                    class="fa-solid fa-paper-plane"></i> Send
+                                Message</button>
+                            <div class="form-success" id="formSuccess"><i
+                                    class="fa-solid fa-circle-check"></i><b>Message
+                                    sent!</b> We'll get back to you within one
+                                business day.</div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ============ FOOTER ============ -->
+        <footer class="footer">
+            <div class="container">
+                <div class="foot-grid">
+                    <div class="foot-brand">
+                        <a href="#home" class="logo">
+                            <svg class="logo-mark" viewBox="0 0 32 32"
+                                aria-hidden="true">
+                                <rect width="32" height="32" rx="9"
+                                    fill="url(#lg)" />
+                                <path d="M10 22V10l12 12V10" stroke="#fff"
+                                    stroke-width="2.6" fill="none"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            NEXORA
+                        </a>
+                        <p>The smart digital business hub — websites, stores,
+                            bookings and customer engagement, unified in one
+                            powerful experience.</p>
+                        <div class="socials">
+                            <a href="#" aria-label="X / Twitter"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Dribbble"><i
+                                    class="fa-brands fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="foot-col"><b>Quick Links</b><a
+                            href="#home">Home</a><a
+                            href="#features">Features</a><a
+                            href="#showcase">Showcase</a><a
+                            href="#process">Process</a><a
+                            href="#reviews">Reviews</a></div>
+                    <div class="foot-col"><b>Solutions</b><a
+                            href="#solutions">Business Website</a><a
+                            href="#solutions">Online Store</a><a
+                            href="#solutions">Booking System</a><a
+                            href="#solutions">Customer Management</a><a
+                            href="#solutions">Analytics</a></div>
+                    <div class="foot-col"><b>Resources</b><a
+                            href="#faq">FAQ</a><a
+                            href="#reviews">Testimonials</a><a
+                            href="#contact">Contact</a><a href="#contact">Get
+                            Started</a></div>
+                </div>
+                <div class="foot-bottom">
+                    <span>© 2026 NEXORA. All rights reserved.</span>
+                    <span>Avijit Chakrobarty</span>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to top & toast -->
+        <button class="back-to-top" id="backToTop" aria-label="Back to top"><i
+                class="fa-solid fa-arrow-up"></i></button>
+        <div class="toast" id="toast" role="status"><i
+                class="fa-solid fa-circle-check"></i><span></span></div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

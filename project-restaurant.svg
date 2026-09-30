@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d130a"/><stop offset="1" stop-color="#33200f"/></linearGradient>
+    <linearGradient id="dish1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9a5c"/><stop offset="1" stop-color="#7a3d16"/></linearGradient>
+    <linearGradient id="dish2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb454"/><stop offset="1" stop-color="#6e4413"/></linearGradient>
+    <linearGradient id="dish3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8605c"/><stop offset="1" stop-color="#521818"/></linearGradient>
+    <radialGradient id="plate" cx="0.4" cy="0.4" r="0.8"><stop offset="0" stop-color="#2e1d10"/><stop offset="1" stop-color="#120b06"/></radialGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+
+  <!-- Browser chrome -->
+  <rect width="1200" height="46" fill="#0e0a06"/>
+  <circle cx="28" cy="23" r="6" fill="#ff6b6b"/><circle cx="50" cy="23" r="6" fill="#ffb454"/><circle cx="72" cy="23" r="6" fill="#2fd48f"/>
+  <rect x="470" y="11" width="260" height="24" rx="12" fill="#241a10"/>
+  <text x="600" y="27" text-anchor="middle" fill="#b09a83" font-size="12">novarestaurant.com</text>
+
+  <!-- Nav -->
+  <text x="70" y="105" fill="#ff9a5c" font-size="26" font-weight="bold" letter-spacing="4">NOVA</text>
+  <g fill="#cbb9a4" font-size="14">
+    <text x="560" y="103">Home</text><text x="635" y="103">Menu</text>
+    <text x="706" y="103">About</text><text x="786" y="103">Gallery</text><text x="878" y="103">Contact</text>
+  </g>
+  <rect x="980" y="76" width="150" height="40" rx="20" fill="#ff8a3c"/>
+  <text x="1055" y="101" text-anchor="middle" fill="#1d130a" font-size="14" font-weight="bold">Book a Table</text>
+
+  <!-- Hero -->
+  <text x="70" y="205" fill="#b09a83" font-size="12" letter-spacing="3">FINE DINING · EST. 2019</text>
+  <text x="70" y="272" fill="#f5ead9" font-size="58" font-family="Georgia, serif">Taste the</text>
+  <text x="70" y="344" fill="#ff9a5c" font-size="58" font-style="italic" font-family="Georgia, serif">Extraordinary</text>
+  <text x="70" y="392" fill="#bfa98f" font-size="15">Seasonal ingredients, wood-fired flavours and a</text>
+  <text x="70" y="416" fill="#bfa98f" font-size="15">dining experience crafted around you.</text>
+  <rect x="70" y="446" width="170" height="48" rx="24" fill="#ff8a3c"/>
+  <text x="155" y="476" text-anchor="middle" fill="#1d130a" font-size="15" font-weight="bold">Reserve Now</text>
+  <rect x="256" y="446" width="170" height="48" rx="24" fill="none" stroke="#6b543c" stroke-width="1.5"/>
+  <text x="341" y="476" text-anchor="middle" fill="#e8d8c2" font-size="15">View Menu</text>
+
+  <!-- Plate illustration -->
+  <circle cx="915" cy="330" r="175" fill="#120b06"/>
+  <circle cx="915" cy="330" r="152" fill="url(#plate)" stroke="#3d2a18" stroke-width="2"/>
+  <circle cx="915" cy="330" r="100" fill="#241708"/>
+  <ellipse cx="915" cy="330" rx="78" ry="52" fill="url(#dish2)" transform="rotate(-18 915 330)"/>
+  <ellipse cx="915" cy="330" rx="58" ry="34" fill="#c97a2e" transform="rotate(-18 915 330)"/>
+  <circle cx="845" cy="285" r="14" fill="#4f7a3a"/><circle cx="988" cy="380" r="10" fill="#4f7a3a"/>
+  <circle cx="862" cy="392" r="8" fill="#e8605c"/><circle cx="975" cy="272" r="8" fill="#ffb454"/>
+
+  <!-- Dish cards -->
+  <g>
+    <rect x="70" y="530" width="320" height="180" rx="16" fill="#241708"/>
+    <rect x="70" y="530" width="320" height="96" rx="16" fill="url(#dish1)"/>
+    <rect x="70" y="606" width="320" height="20" fill="#241708"/>
+    <text x="90" y="660" fill="#f5ead9" font-size="17" font-weight="bold">Truffle Pasta</text>
+    <text x="90" y="688" fill="#bfa98f" font-size="13">Handmade fettuccine · truffle cream</text>
+    <text x="370" y="665" text-anchor="end" fill="#ff9a5c" font-size="18" font-weight="bold">$24</text>
+  </g>
+  <g>
+    <rect x="440" y="530" width="320" height="180" rx="16" fill="#241708"/>
+    <rect x="440" y="530" width="320" height="96" rx="16" fill="url(#dish2)"/>
+    <rect x="440" y="606" width="320" height="20" fill="#241708"/>
+    <text x="460" y="660" fill="#f5ead9" font-size="17" font-weight="bold">Grilled Salmon</text>
+    <text x="460" y="688" fill="#bfa98f" font-size="13">Herb butter · seasonal vegetables</text>
+    <text x="740" y="665" text-anchor="end" fill="#ff9a5c" font-size="18" font-weight="bold">$32</text>
+  </g>
+  <g>
+    <rect x="810" y="530" width="320" height="180" rx="16" fill="#241708"/>
+    <rect x="810" y="530" width="320" height="96" rx="16" fill="url(#dish3)"/>
+    <rect x="810" y="606" width="320" height="20" fill="#241708"/>
+    <text x="830" y="660" fill="#f5ead9" font-size="17" font-weight="bold">Berry Delight</text>
+    <text x="830" y="688" fill="#bfa98f" font-size="13">Dark chocolate · fresh berries</text>
+    <text x="1110" y="665" text-anchor="end" fill="#ff9a5c" font-size="18" font-weight="bold">$16</text>
+  </g>
+</svg>

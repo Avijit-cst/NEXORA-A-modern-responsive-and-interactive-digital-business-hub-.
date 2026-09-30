@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071309"/><stop offset="1" stop-color="#0e2416"/></linearGradient>
+    <linearGradient id="fgrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3ddc97"/><stop offset="1" stop-color="#19b57c"/></linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#fbg)"/>
+
+  <!-- Browser chrome -->
+  <rect width="1200" height="46" fill="#050d08"/>
+  <circle cx="28" cy="23" r="6" fill="#ff6b6b"/><circle cx="50" cy="23" r="6" fill="#ffb454"/><circle cx="72" cy="23" r="6" fill="#2fd48f"/>
+  <rect x="470" y="11" width="260" height="24" rx="12" fill="#0f1d13"/>
+  <text x="600" y="27" text-anchor="middle" fill="#6d8f7a" font-size="12">fitcore.club</text>
+
+  <!-- Nav -->
+  <text x="70" y="105" fill="#ffffff" font-size="22" font-weight="bold" letter-spacing="3">FITCORE<tspan fill="#3ddc97">.</tspan></text>
+  <g fill="#8fae9c" font-size="14">
+    <text x="470" y="103">Programs</text><text x="566" y="103">Coaches</text>
+    <text x="650" y="103">Schedule</text><text x="746" y="103">Pricing</text><text x="826" y="103">Shop</text>
+  </g>
+  <rect x="1000" y="76" width="130" height="40" rx="20" fill="#3ddc97"/>
+  <text x="1065" y="101" text-anchor="middle" fill="#06281a" font-size="14" font-weight="bold">Join Now</text>
+
+  <!-- Hero -->
+  <text x="70" y="175" fill="#3ddc97" font-size="12" letter-spacing="4">STRENGTH · DISCIPLINE · RESULTS</text>
+  <text x="70" y="258" fill="#ffffff" font-size="60" font-weight="bold" letter-spacing="1">TRAIN HARD.</text>
+  <text x="70" y="332" fill="#3ddc97" font-size="60" font-weight="bold" letter-spacing="1">LIVE STRONG.</text>
+  <text x="70" y="378" fill="#8fae9c" font-size="15">Coach-led classes, smart tracking and a community</text>
+  <text x="70" y="402" fill="#8fae9c" font-size="15">that keeps you showing up.</text>
+  <rect x="70" y="430" width="185" height="48" rx="24" fill="#3ddc97"/>
+  <text x="162" y="460" text-anchor="middle" fill="#06281a" font-size="15" font-weight="bold">Start Free Trial</text>
+  <rect x="271" y="430" width="160" height="48" rx="24" fill="none" stroke="#245c41" stroke-width="1.5"/>
+  <text x="351" y="460" text-anchor="middle" fill="#bfe8d4" font-size="14">View Classes</text>
+
+  <!-- Mini stats -->
+  <g>
+    <text x="70" y="522" fill="#3ddc97" font-size="24" font-weight="bold">500+</text>
+    <text x="70" y="544" fill="#6d8f7a" font-size="12">Members</text>
+    <text x="250" y="522" fill="#3ddc97" font-size="24" font-weight="bold">26</text>
+    <text x="250" y="544" fill="#6d8f7a" font-size="12">Classes / week</text>
+    <text x="420" y="522" fill="#3ddc97" font-size="24" font-weight="bold">4.9★</text>
+    <text x="420" y="544" fill="#6d8f7a" font-size="12">Avg. rating</text>
+  </g>
+
+  <!-- Progress ring -->
+  <circle cx="930" cy="310" r="118" fill="none" stroke="#10281a" stroke-width="24"/>
+  <circle cx="930" cy="310" r="118" fill="none" stroke="url(#fgrad)" stroke-width="24"
+          stroke-linecap="round" stroke-dasharray="534 800" transform="rotate(-90 930 310)"/>
+  <text x="930" y="318" text-anchor="middle" fill="#ffffff" font-size="52" font-weight="bold">72%</text>
+  <text x="930" y="350" text-anchor="middle" fill="#6d8f7a" font-size="11" letter-spacing="3">WEEKLY GOAL</text>
+  <rect x="660" y="168" width="185" height="52" rx="14" fill="#0c1d12" stroke="#1c3a28"/>
+  <circle cx="684" cy="194" r="5" fill="#3ddc97"/>
+  <text x="700" y="199" fill="#ffffff" font-size="13">640 kcal burned</text>
+  <rect x="975" y="425" width="160" height="52" rx="14" fill="#0c1d12" stroke="#1c3a28"/>
+  <circle cx="999" cy="451" r="5" fill="#9d6bff"/>
+  <text x="1015" y="456" fill="#ffffff" font-size="13">+12 signups</text>
+
+  <!-- Class cards -->
+  <g>
+    <rect x="70" y="560" width="334" height="140" rx="16" fill="#0b1c11" stroke="#1c3a28"/>
+    <text x="95" y="602" fill="#3ddc97" font-size="24" font-weight="bold">06:00</text>
+    <text x="95" y="632" fill="#ffffff" font-size="16" font-weight="bold">HIIT Blast</text>
+    <text x="95" y="656" fill="#8fae9c" font-size="12">with Coach Alex · 45 min</text>
+    <rect x="250" y="588" width="62" height="24" rx="12" fill="#ff6b6b" opacity="0.16"/>
+    <text x="281" y="605" text-anchor="middle" fill="#ff8a8a" font-size="11" font-weight="bold">FULL</text>
+  </g>
+  <g>
+    <rect x="434" y="560" width="334" height="140" rx="16" fill="#0b1c11" stroke="#1c3a28"/>
+    <text x="459" y="602" fill="#3ddc97" font-size="24" font-weight="bold">09:30</text>
+    <text x="459" y="632" fill="#ffffff" font-size="16" font-weight="bold">Morning Yoga</text>
+    <text x="459" y="656" fill="#8fae9c" font-size="12">with Coach Mia · 60 min</text>
+    <rect x="614" y="588" width="74" height="24" rx="12" fill="#3ddc97" opacity="0.15"/>
+    <text x="651" y="605" text-anchor="middle" fill="#3ddc97" font-size="11" font-weight="bold">8 SPOTS</text>
+  </g>
+  <g>
+    <rect x="798" y="560" width="334" height="140" rx="16" fill="#0b1c11" stroke="#1c3a28"/>
+    <text x="823" y="602" fill="#3ddc97" font-size="24" font-weight="bold">18:00</text>
+    <text x="823" y="632" fill="#ffffff" font-size="16" font-weight="bold">Power CrossFit</text>
+    <text x="823" y="656" fill="#8fae9c" font-size="12">with Coach Dre · 50 min</text>
+    <rect x="978" y="588" width="62" height="24" rx="12" fill="#ff6b6b" opacity="0.16"/>
+    <text x="1009" y="605" text-anchor="middle" fill="#ff8a8a" font-size="11" font-weight="bold">FULL</text>
+  </g>
+
+  <text x="600" y="738" text-anchor="middle" fill="#4e6d5c" font-size="12" letter-spacing="3">OPEN 24/7 · 500+ ACTIVE MEMBERS · 4.9★ RATED</text>
+</svg>

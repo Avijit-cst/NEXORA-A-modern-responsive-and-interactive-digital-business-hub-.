@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1024"/><stop offset="1" stop-color="#0e1c3a"/></linearGradient>
+    <linearGradient id="agrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3d7fff"/><stop offset="1" stop-color="#9d6bff"/></linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2c5fd4"/><stop offset="1" stop-color="#12275a"/></linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8552e8"/><stop offset="1" stop-color="#2a1a56"/></linearGradient>
+    <linearGradient id="w3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d7fff"/><stop offset="1" stop-color="#4a2d9e"/></linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#abg)"/>
+
+  <!-- Browser chrome -->
+  <rect width="1200" height="46" fill="#070c1a"/>
+  <circle cx="28" cy="23" r="6" fill="#ff6b6b"/><circle cx="50" cy="23" r="6" fill="#ffb454"/><circle cx="72" cy="23" r="6" fill="#2fd48f"/>
+  <rect x="470" y="11" width="260" height="24" rx="12" fill="#131c33"/>
+  <text x="600" y="27" text-anchor="middle" fill="#6f82a8" font-size="12">pixelagency.io</text>
+
+  <!-- Nav -->
+  <text x="70" y="105" fill="#ffffff" font-size="24" font-weight="bold" letter-spacing="3">PIXEL<tspan fill="#3d7fff" font-size="14" dy="-8">®</tspan></text>
+  <g fill="#93a5c4" font-size="14">
+    <text x="470" y="103">Work</text><text x="530" y="103">Services</text>
+    <text x="624" y="103">About</text><text x="694" y="103">Journal</text><text x="772" y="103">Contact</text>
+  </g>
+  <rect x="990" y="76" width="140" height="40" rx="10" fill="#3d7fff"/>
+  <text x="1060" y="101" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Start a Project</text>
+
+  <!-- Hero -->
+  <text x="70" y="170" fill="#3d7fff" font-size="12" letter-spacing="4">DIGITAL DESIGN AGENCY — EST. 2023</text>
+  <text x="66" y="285" fill="none" stroke="#dfe7f5" stroke-width="2" font-size="96" font-weight="bold" letter-spacing="2">WE BUILD</text>
+  <text x="66" y="392" fill="url(#agrad)" font-size="96" font-weight="bold" letter-spacing="2">BRANDS<tspan fill="#9d6bff" font-size="34" dy="-40">®</tspan></text>
+  <text x="70" y="432" fill="#93a5c4" font-size="15">Strategy, design and development for ambitious companies</text>
+  <text x="70" y="456" fill="#93a5c4" font-size="15">that refuse to blend in.</text>
+  <rect x="70" y="486" width="180" height="48" rx="24" fill="#3d7fff"/>
+  <text x="160" y="516" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">See Our Work</text>
+  <rect x="266" y="486" width="190" height="48" rx="24" fill="none" stroke="#2a3a5e" stroke-width="1.5"/>
+  <text x="361" y="516" text-anchor="middle" fill="#93a5c4" font-size="13">hello@pixelagency.io</text>
+
+  <!-- Stats column -->
+  <g>
+    <text x="890" y="210" fill="#ffffff" font-size="46" font-weight="bold">120+</text>
+    <text x="890" y="236" fill="#6f82a8" font-size="13">Projects delivered</text>
+    <line x1="890" y1="266" x2="1130" y2="266" stroke="#1b2a4a"/>
+    <text x="890" y="330" fill="#ffffff" font-size="46" font-weight="bold">98%</text>
+    <text x="890" y="356" fill="#6f82a8" font-size="13">Client satisfaction</text>
+    <line x1="890" y1="386" x2="1130" y2="386" stroke="#1b2a4a"/>
+    <text x="890" y="450" fill="#ffffff" font-size="46" font-weight="bold">14</text>
+    <text x="890" y="476" fill="#6f82a8" font-size="13">Design awards</text>
+  </g>
+
+  <!-- Work cards -->
+  <g>
+    <rect x="70" y="560" width="334" height="150" rx="14" fill="url(#w1)"/>
+    <rect x="86" y="576" width="86" height="22" rx="11" fill="#0a1024" opacity="0.55"/>
+    <text x="129" y="591" text-anchor="middle" fill="#ffffff" font-size="10" letter-spacing="2">BRANDING</text>
+    <text x="86" y="682" fill="#ffffff" font-size="17" font-weight="bold">Orbit Finance</text>
+    <text x="86" y="700" fill="#b9c6e0" font-size="12">Identity · 2024</text>
+    <circle cx="368" cy="674" r="17" fill="#ffffff" opacity="0.18"/>
+    <path d="M361,674 h13 M370,669 l5,5 -5,5" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="434" y="560" width="334" height="150" rx="14" fill="url(#w2)"/>
+    <rect x="450" y="576" width="98" height="22" rx="11" fill="#0a1024" opacity="0.55"/>
+    <text x="499" y="591" text-anchor="middle" fill="#ffffff" font-size="10" letter-spacing="2">WEB DESIGN</text>
+    <text x="450" y="682" fill="#ffffff" font-size="17" font-weight="bold">Pulse Festival</text>
+    <text x="450" y="700" fill="#b9c6e0" font-size="12">Website · 2024</text>
+    <circle cx="732" cy="674" r="17" fill="#ffffff" opacity="0.18"/>
+    <path d="M725,674 h13 M734,669 l5,5 -5,5" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="798" y="560" width="334" height="150" rx="14" fill="url(#w3)"/>
+    <rect x="814" y="576" width="102" height="22" rx="11" fill="#0a1024" opacity="0.55"/>
+    <text x="865" y="591" text-anchor="middle" fill="#ffffff" font-size="10" letter-spacing="2">MOBILE APP</text>
+    <text x="814" y="682" fill="#ffffff" font-size="17" font-weight="bold">Nova Delivery</text>
+    <text x="814" y="700" fill="#d5def2" font-size="12">Product · 2025</text>
+    <circle cx="1096" cy="674" r="17" fill="#ffffff" opacity="0.18"/>
+    <path d="M1089,674 h13 M1098,669 l5,5 -5,5" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <text x="600" y="742" text-anchor="middle" fill="#4e608a" font-size="12" letter-spacing="3">TRUSTED BY — NOVA · URBAN · LUXE · ORBIT · PULSE</text>
+</svg>
